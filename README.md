@@ -28,7 +28,7 @@ One single file: no installer package and no runtime to install first.
 
 > Windows SmartScreen may warn about the downloaded file because it is not code-signed yet. Choose *More info → Run anyway*.
 >
-> **Smart App Control:** On some Windows 11 PCs (often freshly installed ones), *Smart App Control* is switched on. It blocks every program without a known signature, without a "Run anyway" option. You see either nothing at all, or the message *"An Application Control policy has blocked this file"*. Until PPTShowAssistant is signed, switch it off on show PCs: *Settings → Privacy & security → Windows Security → App & browser control → Smart App Control settings → Off*. Note: Windows can only switch it on again after a reinstallation.
+> **Smart App Control:** On some Windows 11 PCs (often freshly installed ones), *Smart App Control* is switched on. It blocks every program without a known signature, without a "Run anyway" option. You see either nothing at all, or the message *"An Application Control policy has blocked this file"*. Until PPTShowAssistant is signed, switch it off on show PCs: *Settings → Privacy & security → Windows Security → App & browser control → Smart App Control settings → Off*. On current Windows 11 you can switch it on again on the same page; older versions only allow that after a reinstallation.
 
 ---
 
