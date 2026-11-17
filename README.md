@@ -1,8 +1,14 @@
 # PPTShowAssistant
 
-**Keeps PowerPoint show PCs running – reliably, unattended, and simple enough for anyone on the crew.**
+**Keeps show PCs running – reliably, unattended, and simple enough for anyone on the crew.**
 
-PPTShowAssistant turns a Windows PC into a dependable PowerPoint player for conferences, live events and professional show environments. It sits in the system tray, watches PowerPoint, prepares Windows for show use and shows every problem before the audience sees it – including on headless PCs without a monitor or keyboard.
+PPTShowAssistant prepares and watches the Windows PCs of conferences, live events and professional show environments. It is made for every show-relevant PC:
+- **PowerPoint players**
+- **Operator PCs**
+- **Media servers**
+- **Any other PC in the show**
+
+It sits in the system tray and prepares Windows for show use. On PowerPoint players it keeps PowerPoint running. It shows every problem before the audience sees it, including on headless PCs without a monitor or keyboard, and it shows all show PCs and devices on the network at a glance.
 
 🌐 [pptshowassistant.com](https://pptshowassistant.com)
 
@@ -18,7 +24,7 @@ One single file: no installer package and no runtime to install first.
 
 **Requirements**
 - Windows 10 or Windows 11 (64-bit)
-- Microsoft PowerPoint 2016 or newer, ideally Microsoft 365 Apps. PPTShowAssistant can help you install it.
+- On PowerPoint players: Microsoft PowerPoint 2016 or newer, ideally Microsoft 365 Apps. PPTShowAssistant can help you install it. Operator PCs, media servers and other PCs do not need PowerPoint.
 
 > Windows SmartScreen may warn about the downloaded file because it is not code-signed yet. Choose *More info → Run anyway*.
 
@@ -31,7 +37,7 @@ One single file: no installer package and no runtime to install first.
    - **Install and autostart.** The program copies itself to `C:\PPTShowAssistant` and starts automatically with Windows.
    - **Automatic sign-in.** Windows signs in by itself, so the PC is ready after power-on without a keyboard.
    - **Windows preparation.** These are the *Showsafe Tweaks*: show-friendly settings, each one optional.
-   - **Name and role of this PC.** For example `ppt1` as *PowerPoint player* or `operator-pc1` as *Operator PC*.
+   - **Name and role of this PC.** The roles are *PowerPoint player*, *Operator PC*, *Media server PC* and *Other PC*, with names like `ppt1`, `operator-pc1` or `mediaserver1`.
    - **PowerPoint watchdog** and the other modules.
 3. Windows asks once for administrator rights. That is the only time.
 
