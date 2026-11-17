@@ -68,7 +68,7 @@ A file in the program folder undoes the whole Windows preparation and restores t
 
 ### Network view
 - Shows every PPTShowAssistant on the network: name, IP address, version, state, and the status of each module. Problems on any PC are visible from every PC.
-- Also lists other show devices found via mDNS / Bonjour: Bitfocus Companion, Companion Satellite, NDI sources, Dante devices, QLab, OSC and Blackmagic devices. Companion and Satellite get a direct **Open** button to their web interface.
+- Also lists every other device that announces itself via mDNS / Bonjour, one row per device. Known show devices are named: Bitfocus Companion with its version, Companion Satellite, NDI sources, Dante, QLab, OSC and Blackmagic devices. Others are described by their services, such as printer or web interface, and unknown devices are listed too. Devices with a web interface get a direct **Open ↗** link, for example Companion, Satellite and printers.
 - Every PC gets a unique, readable name. Duplicate names are detected.
 
 ### OSCPoint
