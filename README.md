@@ -27,6 +27,8 @@ One single file: no installer package and no runtime to install first.
 - On PowerPoint players: Microsoft PowerPoint 2016 or newer, ideally Microsoft 365 Apps. PPTShowAssistant can help you install it. Operator PCs, media servers and other PCs do not need PowerPoint.
 
 > Windows SmartScreen may warn about the downloaded file because it is not code-signed yet. Choose *More info → Run anyway*.
+>
+> **Smart App Control:** On some Windows 11 PCs (often freshly installed ones), *Smart App Control* is switched on. It blocks every program without a known signature, without a "Run anyway" option. You see either nothing at all, or the message *"An Application Control policy has blocked this file"*. Until PPTShowAssistant is signed, switch it off on show PCs: *Settings → Privacy & security → Windows Security → App & browser control → Smart App Control settings → Off*. Note: Windows can only switch it on again after a reinstallation.
 
 ---
 
